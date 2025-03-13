@@ -1,3 +1,5 @@
+import 'package:exam_shablon/core/theme/strings.dart';
+
 import '/core/theme/text_styles.dart';
 import 'package:flutter/material.dart';
 
@@ -8,10 +10,10 @@ class ErrorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Page Not Found")),
+      appBar: AppBar(title: Text(AppStrings.notFound)),
       body: Center(
         child: Text(
-          "Oops! Bu sahifa mavjud emas.",
+          AppStrings.oops,
           style: AppTextStyles.errorStyle,
         ),
       ),

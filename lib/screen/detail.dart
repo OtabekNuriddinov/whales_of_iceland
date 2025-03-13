@@ -1,3 +1,6 @@
+import 'package:exam_shablon/core/theme/dimens.dart';
+import 'package:exam_shablon/core/theme/icons.dart';
+import 'package:exam_shablon/core/theme/text_styles.dart';
 import 'package:exam_shablon/service/app_service.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +16,7 @@ class Detail extends StatefulWidget {
 
 class _DetailState extends State<Detail> {
   AppService appService = AppService();
+  bool isPressed = false;
 
   @override
   Widget build(BuildContext context) {
@@ -27,52 +31,44 @@ class _DetailState extends State<Detail> {
             alignment: Alignment(0, -1),
             child: Container(
               width: double.infinity,
-              height: 300,
+              height: AppDimens.d300,
               decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: AppColors.blue,
                   borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
                   image: DecorationImage(fit: BoxFit.cover, image: item.image)),
               child: Padding(
-                padding: const EdgeInsets.all(40.0),
+                padding: AppDimens.p40,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Align(
                       alignment: Alignment.centerRight,
-                      child: Icon(
-                        Icons.play_arrow_outlined,
-                        size: 35,
-                        color: AppColors.white,
-                      ),
+                      child: backButton(context),
                     ),
                     Align(
-                      alignment: Alignment(-1, 0.9),
+                      alignment: Alignment.bottomLeft,
                       child: Container(
-                        width: 70,
-                        height: 30,
+                        width: AppDimens.d70,
+                        height: AppDimens.d30,
                         color: Colors.blueAccent,
                         child: Center(
-                            child: Text(
-                          "2.55 hrs",
-                          style: TextStyle(color: AppColors.white),
-                        )),
+                          child: Text(
+                            item.hours,
+                            style: TextStyle(color: AppColors.white),
+                          ),
+                        ),
                       ),
                     ),
                     Align(
-                      alignment: Alignment(-1, 0.9),
-                      child: Text(
-                        item.name,
-                        style: TextStyle(
-                            fontSize: 28,
-                            fontWeight: FontWeight.bold,
-                            color: AppColors.white),
-                      ),
+                      alignment: Alignment.bottomLeft,
+                      child:
+                          Text(item.name, style: AppTextStyles.itemNameStyle),
                     ),
                     Align(
-                      alignment: Alignment(-1, 0.9),
+                      alignment: Alignment.bottomLeft,
                       child: Text(
                         item.subName,
-                        style: TextStyle(fontSize: 16, color: Colors.grey),
+                        style: AppTextStyles.subNameStyle,
                       ),
                     )
                   ],
@@ -84,104 +80,112 @@ class _DetailState extends State<Detail> {
             alignment: Alignment(0, 1),
             child: Container(
               width: double.infinity,
-              height: 500,
+              height: AppDimens.d500,
               decoration: BoxDecoration(
                 color: AppColors.white,
-                borderRadius: BorderRadius.vertical(
-                  top: Radius.circular(30),
-                ),
+                borderRadius: BorderRadius.vertical(top: AppDimens.r30),
               ),
               child: SingleChildScrollView(
                 child: Padding(
-                  padding: const EdgeInsets.all(30.0),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: double.infinity,
-                        height: 50,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.blue.shade50,
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(10.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Icon(
-                                Icons.height,
-                                color: Colors.blue,
-                              ),
-                              SizedBox(width: 5),
-                              Text(item.length),
-                              SizedBox(width: 20),
-                              Icon(Icons.shopping_basket_outlined,
-                                  color: Colors.blue),
-                              SizedBox(width: 5),
-                              Text(item.weight),
-                              SizedBox(width: 20),
-                              Icon(Icons.speed_outlined, color: Colors.blue),
-                              SizedBox(width: 5),
-                              Text(item.worldwide)
-                            ],
-                          ),
+                  padding: AppDimens.p30,
+                  child: Column(children: [
+                    Container(
+                      width: double.infinity,
+                      height: AppDimens.d50,
+                      decoration: BoxDecoration(
+                        borderRadius: AppDimens.r20,
+                        color: AppColors.blueShade,
+                      ),
+                      child: Padding(
+                        padding: AppDimens.pAll10,
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            AppIcons.length,
+                            AppDimens.w5,
+                            Text(item.length),
+                            AppDimens.w20,
+                            AppIcons.weight,
+                            AppDimens.w5,
+                            Text(item.weight),
+                            AppDimens.w20,
+                            AppIcons.speed,
+                            AppDimens.w5,
+                            Text(item.worldwide)
+                          ],
                         ),
                       ),
-                      SizedBox(height: 30),
-                      Text(item.text),
-                      SizedBox(height: 20),
-                      Stack(
-                        children: [
-                          Container(
-                            color: Colors.grey,
-                            width: double.infinity,
-                            height: 2,
-                          ),
-                          Container(
-                            color: Colors.blue,
-                            width: 150,
-                            height: 2,
-                          )
-                        ],
-                      ),
-                      Row(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Text(
-                            "2.12",
-                            style: TextStyle(color: Colors.grey),
-                          ),
-                          Spacer(),
-                          Text(
-                            "4.42",
-                            style: TextStyle(color: Colors.grey),
-                          )
-                        ],
-                      ),
-                      SizedBox(height: 5),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Icon(Icons.arrow_back_ios_new, color: Colors.grey, size: 40,),
-                          SizedBox(width: 30),
-                          Icon(Icons.play_circle, color: Colors.blue, size: 70,),
-                          SizedBox(width: 30),
-                          Icon(Icons.arrow_forward_ios_rounded, color: Colors.grey, size: 40,)
-                        ],
-                      )
-                    ],
-                  ),
-
+                    ),
+                    AppDimens.h30,
+                    Text(item.text),
+                    AppDimens.h20,
+                    Stack(
+                      children: [
+                        Container(
+                          color: AppColors.grey,
+                          width: double.infinity,
+                          height: 2,
+                        ),
+                        Container(
+                          color: AppColors.blue,
+                          width: AppDimens.d150,
+                          height: 2,
+                        )
+                      ],
+                    ),
+                    Row(
+                      mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Text(
+                          "2.12",
+                          style: TextStyle(color: AppColors.grey),
+                        ),
+                        Spacer(),
+                        Text(
+                          "4.42",
+                          style: TextStyle(color: AppColors.grey),
+                        )
+                      ],
+                    ),
+                    AppDimens.h5,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(onPressed: () {}, icon: AppIcons.toLeft),
+                        AppDimens.w30,
+                        IconButton(
+                            onPressed: () {
+                              setState(() {
+                                isPressed = !isPressed;
+                              });
+                            },
+                            icon: isPressed ? AppIcons.play : AppIcons.pause),
+                        AppDimens.w30,
+                        IconButton(onPressed: () {}, icon: AppIcons.toRight)
+                      ],
+                    )
+                  ]),
                 ),
               ),
-
             ),
-          )
+          ),
         ],
       ),
     ));
+  }
+
+  IconButton backButton(BuildContext context) {
+    return IconButton(
+      onPressed: () {
+        Navigator.pop(context);
+      },
+      icon: Icon(
+        Icons.play_arrow_outlined,
+        color: AppColors.white,
+      ),
+    );
   }
 }

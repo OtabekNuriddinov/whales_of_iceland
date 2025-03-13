@@ -16,6 +16,7 @@ dependencies:
 
   # for project svg:
   flutter_svg: ^2.0.17
+  just_audio: ^0.9.46
 
 dev_dependencies:
   flutter_test:
@@ -35,6 +36,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/sounds/
 
 
   # fonts:

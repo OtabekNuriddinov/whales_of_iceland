@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class Model{
+class Model {
   final int id;
   String name;
   String subName;
@@ -9,8 +9,18 @@ class Model{
   String worldwide;
   String text;
   AssetImage image;
-  Model({ required this.id, required this.length, required this.weight, required this.worldwide, required this.text, required this.name, required this.subName, required this.image});
-
+  String hours;
+  Model({
+    required this.id,
+    required this.length,
+    required this.weight,
+    required this.worldwide,
+    required this.text,
+    required this.name,
+    required this.subName,
+    required this.image,
+    required this.hours
+  });
 
   @override
   String toString() {
