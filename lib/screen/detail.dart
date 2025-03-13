@@ -3,6 +3,7 @@ import 'package:exam_shablon/core/theme/icons.dart';
 import 'package:exam_shablon/core/theme/text_styles.dart';
 import 'package:exam_shablon/service/app_service.dart';
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
 
 import '../core/theme/colors.dart';
 import '../models/model.dart';
@@ -16,7 +17,28 @@ class Detail extends StatefulWidget {
 
 class _DetailState extends State<Detail> {
   AppService appService = AppService();
-  bool isPressed = false;
+  bool isPressed = true;
+
+  final AudioPlayer _audioPlayer = AudioPlayer();
+
+  void _playSound()async{
+    try{
+      await _audioPlayer.setAsset("assets/sounds/whale_sound.mp3");
+      _audioPlayer.play();
+    }catch(e){
+      print("Error: $e");
+    }
+  }
+
+  void _pauseSound(){
+    _audioPlayer.pause();
+  }
+
+  @override
+  void dispose() {
+    _audioPlayer.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -160,6 +182,12 @@ class _DetailState extends State<Detail> {
                             onPressed: () {
                               setState(() {
                                 isPressed = !isPressed;
+                                if(!isPressed){
+                                  _playSound();
+                                }
+                                else{
+                                  _pauseSound();
+                                }
                               });
                             },
                             icon: isPressed ? AppIcons.play : AppIcons.pause),
