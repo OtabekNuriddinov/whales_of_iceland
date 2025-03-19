@@ -9,7 +9,8 @@ import '../core/theme/colors.dart';
 import '../models/model.dart';
 
 class Detail extends StatefulWidget {
-  const Detail({super.key});
+  final Model whale;
+  const Detail({required this.whale, super.key});
 
   @override
   State<Detail> createState() => _DetailState();
@@ -42,9 +43,7 @@ class _DetailState extends State<Detail> {
 
   @override
   Widget build(BuildContext context) {
-    Map map = ModalRoute.of(context)?.settings.arguments as Map;
-    int index = map['index'];
-    Model item = appService.items[index];
+    Model item = widget.whale;
     return Scaffold(
         body: Center(
       child: Stack(

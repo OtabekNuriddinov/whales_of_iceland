@@ -1,5 +1,3 @@
-import 'package:flutter/cupertino.dart';
-
 class Model {
   final int id;
   String name;
@@ -25,11 +23,11 @@ class Model {
     return Model(
       id: json['id'],
       name: json['name'],
+      subName: json['subName'],
       length: json['length'],
       weight: json['weight'],
       worldwide: json['worldwide'],
       text: json['text'],
-      subName: json['subName'],
       image: json['image'],
       hours: json['hours'],
     );

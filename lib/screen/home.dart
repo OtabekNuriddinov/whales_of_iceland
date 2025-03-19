@@ -2,6 +2,7 @@ import 'package:exam_shablon/core/config/routes.dart';
 import 'package:exam_shablon/core/theme/colors.dart';
 import 'package:exam_shablon/core/theme/icons.dart';
 import 'package:exam_shablon/core/theme/text_styles.dart';
+import 'package:exam_shablon/screen/detail.dart';
 import 'package:exam_shablon/service/app_service.dart';
 import 'package:flutter/material.dart';
 
@@ -25,27 +26,32 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: _appBar(),
       body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(15.0),
-          child: ListView.builder(
-            itemCount: appService.items.length,
-            itemBuilder: (context, index) {
-              final item = appService.items[index];
-              return Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: MyContainer(
-                  item: item,
-                  name: item.name,
-                  subName: item.subName,
-                  hours: item.hours,
-                  onTap: (){
-                    requiredIndex = index;
-                    Navigator.pushNamed(context, AppRoutes.detail, arguments: {"index": requiredIndex});
-                  },
-                ),
-              );
-            },
-          ),
+        child: FutureBuilder<void>(
+          future: appService.initialize(),
+          builder: (context, _){
+          return Padding(
+            padding: const EdgeInsets.all(15.0),
+            child: ListView.builder(
+              itemCount: appService.items.length,
+              itemBuilder: (context, index) {
+                final item = appService.items[index];
+                return Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: MyContainer(
+                    item: item,
+                    name: item.name,
+                    subName: item.subName,
+                    hours: item.hours,
+                    onTap: (){
+                      requiredIndex = index;
+                      Navigator.push(context, MaterialPageRoute(builder: (_) => Detail(whale: appService.items[index])));
+                    },
+                  ),
+                );
+              },
+            )
+          );
+        }
         ),
       ),
       bottomNavigationBar: _bottomNavigationBar(context),
