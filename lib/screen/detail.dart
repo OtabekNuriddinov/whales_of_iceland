@@ -57,7 +57,7 @@ class _DetailState extends State<Detail> {
               decoration: BoxDecoration(
                   color: AppColors.blue,
                   borderRadius: BorderRadius.vertical(top: Radius.circular(10)),
-                  image: DecorationImage(fit: BoxFit.cover, image: item.image)),
+                  image: DecorationImage(fit: BoxFit.cover, image: AssetImage(item.image))),
               child: Padding(
                 padding: AppDimens.p40,
                 child: Column(

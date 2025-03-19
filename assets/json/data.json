@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "Fin Whale",
+    "subName": "Balaenoptera Physalus",
+    "length": "20-25 m",
+    "weight": "50-80 tons",
+    "worldwide": "3-4.000 indiv",
+    "text": "The Fin Whale is the second largest animal in the world! The body is long and sleek, and dark coloured above and white below, with a brown-toned chevron pattern behind the head. The right jaw is white or pale, while the left is dark gray or black. The baleen plates are coloured accordingly. The tall below looks like an inverted cone. Their breathing cycle is 3-4 times before going down for a deep dive and they usually spend about 5-20 min underwater, diving down to 50-250 m (156-820 ft).\n \n Living mostly solitary or in small groups, they are sometimes found traveling with Blue whales, with which they occasionally crossbreed. They are fast swimmers and reach speeds of up to 45 km/h. Like the Blue whales, they produce very loud, low-frequency vocalizations that travel long distances underwater. This was the most hunted great whale species during the 20th century but has been protected since 1966 worldwide. The population size is estimated to be 120.000 - 150.000 worldwide. They occur in all major oceans but are mainly found in temperate to polar latitudes, where they concentrate in coastal and shelf waters. \n \n Fin whales are among the species hunted in Iceland since the ban on commercial whaling. In the years 1986-1989, 292 fin whales were taken as a part of a scientific program. In 2006, 7 more were taken for commercial reasons.",
+    "image": "assets/images/fin_whale.jpg",
+    "hours": "2:15 hrs"
+  },
+  {
+    "id": 2,
+    "name": "The Humpback Whale",
+    "subName": "Megaptera Novaengliae",
+    "length": "13-17 m",
+    "weight": "25-40 tons",
+    "worldwide": "10-15.000 indiv.",
+    "text": "A large and rather robust body that is black above and black-and-white or mottled below. The characteristic features are the long flippers, measuring ⅓ of the body length, and the fluke that has a distinctive black and white pattern on the underside. The composition of the pattern distinguishes individuals and is used for identification. Head and flippers are covered with barnacles, which will attach soon after birth and remain during the animals lifetime. They can stay underwater for about 5-15 minutes. \n \n Living solitary or in small unstable groups, they occasionally engage in a cooperative hunt. They always lift the fluke before a dive and revealing its shape and coloration. During mating season, they produce a high variety of songs that can last for hours to attract the females. They are known for water-surface acrobatics, such as breaching, lob-tailing and flipper-slapping. The migratory routes and whereabouts during the winter months are well known. Traveling about 6.000km one way, this is one of the longest journeys known of any mammal. The population is estimated to be about 70.000 - 100.000 individuals worldwide. \n \n This species was not hunted as much as other whales but has often been caught for display. The biggest threat is heavy ship traffic, toxins in the water and reduced prey abundance. The worldwide population size is unknown.",
+    "image": "assets/images/humpback_whale.jpg",
+    "hours": "1:40 hrs"
+  },
+  {
+    "id": 3,
+    "name": "The Killer Whale",
+    "subName": "Orcinus Orca",
+    "length": "6-9 m",
+    "weight": "3-10 tons",
+    "worldwide": "10-15.000 indiv.",
+    "text": "A very robust body with a distinctive black-and-white colour and a grey saddle patch behind the dorsal fin. The head is conical and lacks a well-defined beak. The dorsal fin, situated mid-back, is large (up to 1,8 m (6 ft) in males), prominent and variable in shape: curved in females and juveniles, erected and almost spike like in adult males. The flippers are large, broad and rounded. \n \n The varied diet and vivid chase of other marine mammals make them the top predators in the oceans and gave them the common name killer whale. They feed on fish, cetaceans, pinnipeds and squid. Orcas are fast swimmers, reaching a speed of 50 km/h. They usually don’t stay very long underwater and don’t dive very deep, or 30 m (98 ft). Being very social animals, they live in stable groups called pods with strong family ties. They are known for their well-organized hunting techniques and for developing specific vocalizations within the pods.",
+    "image": "assets/images/killer whale.jpg",
+    "hours": "2:20 hrs"
+  },
+  {
+    "id": 4,
+    "name": "The Minke Whale",
+    "subName": "Balaenoptera Acutorostrata",
+    "length": "7-10 m",
+    "weight": "8-10 tons",
+    "worldwide": "1 million indiv.",
+    "text": "A comparably small and sleek body that is black or dark grey above and whitish underneath. The head is pointed and V-shaped, with a longitudinal ridge running along the top of the head. The flippers are narrow with pointed tips and have a white band across, whereas the individuals living in the Southern Hemisphere usually have plain black flippers. The dorsal fin is falcate and used for identification. They can stay underwater for about 5-20 minutes and can dive down to 50-100 m (164-328 ft). \n \n This species is known for its curiosity and for approaching the boats. They arch their body prior to a dive but don't lift the fluke, and can occasionally be seen breaching. They live solitary or in small groups, but large aggregations sometimes occur in feeding areas. Once considered too small to hunt, they became the primary target of commercial whalers until today. \n \n Minke whales seem to be very adaptable and the only species, which population size increased despite the commercial whaling era and other disturbances. As a migratory species, they generally inhabit warmer waters during the winter, while spending the summer months in higher latitudes to feed. The population size is estimated to be about 800.000 individuals worldwide.",
+    "image": "assets/images/minke_whale.jpg",
+    "hours": "2:10 hrs"
+  },
+  {
+    "id": 5,
+    "name": "The Sperm Whale",
+    "subName": "Physeter Macrocephalus",
+    "length": "12-18 m",
+    "weight": "30-50 tons",
+    "worldwide": "hundreds of thousands",
+    "text": "The squid eating Moby Dick, or Sperm Whale is the largest of the toothed whales. It has a rather wrinkled and shriveled appearance, the body is evenly dark grey with a white upper lip and white patches on the belly. The head measures ⅓ of the body length and is blunt and square. The dorsal fin is low and thick. The flippers are short and broad, and the fluke can be 5 m (16.4 ft) wide and is triangular in shape with a straight trailing edge. The single blowhole is located in the front left side of the head, creating a bushy, forward projected blow. The lower jaw is small and contains all the, 40-52 teeth and therefore it isn’t a baleen whale. \n \n While foraging, they are capable of diving as deep as 3000 m (1.8 miles) and stay submerged for more than 2 hours. Between the dives, they spend long times rafting at the surface. The females form stable, long-term groups that stay in warmer, tropical waters year round. The males are solitary during their breeding prime and old age, but form bachelor-groups until they have reached maturity. There was a general reduction during the whaling era but the population is considered to be stable. The selective killing of large mature males over many years is resulting in a decline of the birth rate. Estimated population size is 1.000.000 individuals.",
+    "image": "assets/images/sperm_whale.jpg",
+    "hours": "1:50 hrs"
+  },
+  {
+    "id": 6,
+    "name": "The Blue Whale",
+    "subName": "Balaenoptera Musculus",
+    "length": "20-30 m",
+    "weight": "110-190 tons",
+    "worldwide": "3-4.000 indiv.",
+    "text": "The Blue Whale is also known as the King of the Sea, being the largest animal on earth. Their body is distinctively mottled and grayish-blue in color. The large blow can be seen from afar and is a clear sign of their presence. Occasionally they will lift the fluke before a deep dive to be able to reach higher depths. The fluke can be up to 8 m (26 ft) in diameter. Their breathing cycle is 3-4 times before going down for a deep dive and they usually spend about 10-30 min underwater, diving down to about 50-100 m (164-328 ft). They live solitary or in small groups, and travel occasionally in association with fin whales. Possessing the loudest voice in the animal kingdom, they emit low-frequency sounds that travel hundreds of kilometers under water and can reach 188 decibels. Sometimes they crossbreed with fin or humpback whales. \n \n The Blue whale species is believed to be the largest animal ever to live on earth. The longest animal on record was over 33 meters, and the heaviest was about 200 tons. For comparison, the largest of the dinosaurs are thought to have weighed only half as much. Excessive whaling during the 20th century has caused drastic reduction of the populations to almost99% of the original numbers. They are protected worldwide since 1966, with some signs of population recovery. The current population is estimated to be about 10.000 individuals worldwide.",
+    "image": "assets/images/blue_whale.jpg",
+    "hours": "2:00 hrs"
+  },
+  {
+    "id": 7,
+    "name": "The Bowhead Whale",
+    "subName": "Balaena Mysticetus",
+    "length": "14-18 m",
+    "weight": "75-100 tons",
+    "worldwide": "10.000 indiv.",
+    "text": "A stocky, barrel-shaped body, the Bowhead Whale is identified by its prominent, arched upper jaw that forms a bow-like shape. Its coloration is black above with a white underside and white patches around the throat. The head is massive, making up almost a third of its total length, and it has the largest mouth of any animal. Their baleen plates are extremely thick and long, used to filter tiny prey such as copepods. \n \n These whales live in Arctic and sub-Arctic regions, migrating seasonally, and can be found in shallow coastal waters. Bowhead whales are known for their impressive longevity, with individuals living over 200 years. Once heavily hunted, their numbers have rebounded and they are considered to be a success story in conservation. They feed by swimming slowly through large swarms of copepods, filtering massive quantities of water through their baleen.",
+    "image": "assets/images/bootle_whale.jpg",
+    "hours": "2:30 hrs"
+  },
+  {
+    "id": 8,
+    "name": "The Gray Whale",
+    "subName": "Eschrichtius Robustus",
+    "length": "12-16 m",
+    "weight": "30-40 tons",
+    "worldwide": "30.000 indiv.",
+    "text": "Gray whales are medium-sized and robust, with a grayish color and a pattern of white patches and scars, mostly from interactions with other marine animals. They are known for their long migrations from feeding grounds in the Arctic to breeding lagoons in Baja California, Mexico. Their primary diet consists of benthic organisms such as amphipods that they scoop from the ocean floor. \n \n These whales have a unique feeding behavior, diving to the ocean floor and using their baleen plates to filter out sediment and prey. The Gray Whale's migratory route is one of the longest of any mammal, with individuals traveling over 16.000 km annually. They live in small groups and are often observed close to shore.",
+    "image": "assets/images/sei_whale.jpg",
+    "hours": "1:50 hrs"
+  },
+  {
+    "id": 9,
+    "name": "The Beluga Whale",
+    "subName": "Delphinapterus Leucas",
+    "length": "4-6 m",
+    "weight": "1-1.5 tons",
+    "worldwide": "100.000 indiv.",
+    "text": "Beluga whales are small, white whales with a distinct bulbous forehead called a melon. Their bodies are compact and robust, and their necks are flexible, allowing them to move their heads up, down, and side to side. They are often referred to as the 'canaries of the sea' due to their wide range of vocalizations. \n \n Living in Arctic and sub-Arctic regions, Belugas are social and live in pods. They are known for their highly social behavior, often engaging in playful activities and forming strong bonds within their pods. Belugas are able to survive in very cold waters, thanks to their thick layer of blubber.",
+    "image": "assets/images/pilot_whale.jpg",
+    "hours": "1:30 hrs"
+  },
+  {
+    "id": 10,
+    "name": "The Narwhal",
+    "subName": "Monodon Monoceros",
+    "length": "4-5 m",
+    "weight": "800 kg - 1.6 tons",
+    "worldwide": "80.000 indiv.",
+    "text": "The Narwhal is a unique whale species, known for the long, spiral tusk extending from the male’s head. This tusk is an elongated tooth and is thought to be used in mating rituals or social hierarchies. The Narwhal’s body is mottled gray and white with a short, stocky frame and a small dorsal fin. They live in the Arctic and sub-Arctic regions, often found in deep, cold waters. Narwhals are social animals, often seen in pods, and are typically preyed upon by polar bears and killer whales.",
+    "image": "assets/images/whiet_breaked.jpg",
+    "hours": "2:10 hrs"
+  },
+  {
+    "id": 11,
+    "name": "The Pygmy Sperm Whale",
+    "subName": "Kogia Breviceps",
+    "length": "3.5-4.5 m",
+    "weight": "300-600 kg",
+    "worldwide": "tens of thousands",
+    "text": "A small whale with a rounded body, the Pygmy Sperm Whale has a square-shaped head and a pronounced ridge running from the blowhole to the upper lip. They are dark gray or brownish above and light gray below. They are known for their elusive nature and are rarely seen in the wild. \n \n These whales are deep divers, feeding primarily on squid. They are found in tropical and temperate waters around the world. They can dive to depths of 1,000 m (3,280 ft) and stay submerged for up to 30 minutes. Pygmy sperm whales are solitary or in small groups and are considered data-deficient due to the lack of information on their population and behavior.",
+    "image": "assets/images/white_sided whale.jpg",
+    "hours": "1:40 hrs"
+  }
+]
+

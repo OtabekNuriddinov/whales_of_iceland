@@ -31,7 +31,7 @@ class MyContainer extends StatelessWidget {
           borderRadius: BorderRadius.circular(15),
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: item.image,
+            image: AssetImage(item.image),
           ),
         ),
         child: Padding(
