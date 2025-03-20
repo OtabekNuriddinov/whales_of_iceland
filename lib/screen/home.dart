@@ -6,7 +6,6 @@ import 'package:exam_shablon/screen/detail.dart';
 import 'package:exam_shablon/service/app_service.dart';
 import 'package:flutter/material.dart';
 
-import '../core/theme/dimens.dart';
 import '../core/theme/strings.dart';
 import '../core/widgets/my_container.dart';
 

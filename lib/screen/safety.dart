@@ -4,8 +4,6 @@ import 'package:exam_shablon/core/theme/strings.dart';
 import 'package:exam_shablon/core/theme/text_styles.dart';
 import 'package:flutter/material.dart';
 
-import '../core/theme/colors.dart';
-
 class Safety extends StatelessWidget {
   const Safety({super.key});
 
